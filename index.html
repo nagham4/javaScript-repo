@@ -3,45 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>7 Segment Display</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
-    <form >
-        <input type="number" min="0" max="999" id="inputText" placeholder="Enter numbers between 0 and 999"><br>
-        <button onclick="" >Display</button>
-    </form>
-    <div class="container">
-    <div class="digit">
-        <div class="segment a"></div>
-        <div class="segment b"></div>
-        <div class="segment c"></div>
-        <div class="segment d"></div>
-        <div class="segment e"></div>
-        <div class="segment f"></div>
-        <div class="segment g"></div>
+        <form onsubmit="return false;">
+            <input type="number" min="0" max="999" id="inputText" placeholder="Enter numbers between 0 and 999"><br>
+            <button type="button" id="displayBtn">Display</button>
+        </form>
+        <div class="container">
+            <div class="digit">
+                <div class="segment a"></div>
+                <div class="segment b"></div>
+                <div class="segment c"></div>
+                <div class="segment d"></div>
+                <div class="segment e"></div>
+                <div class="segment f"></div>
+                <div class="segment g"></div>
+            </div>
+            <div class="digit">
+                <div class="segment a"></div>
+                <div class="segment b"></div>
+                <div class="segment c"></div>
+                <div class="segment d"></div>
+                <div class="segment e"></div>
+                <div class="segment f"></div>
+                <div class="segment g"></div>
+            </div>
+            <div class="digit">
+                <div class="segment a"></div>
+                <div class="segment b"></div>
+                <div class="segment c"></div>
+                <div class="segment d"></div>
+                <div class="segment e"></div>
+                <div class="segment f"></div>
+                <div class="segment g"></div>
+            </div>
+        </div>
     </div>
-    <div class="digit">
-        <div class="segment a"></div>
-        <div class="segment b"></div>
-        <div class="segment c"></div>
-        <div class="segment d"></div>
-        <div class="segment e"></div>
-        <div class="segment f"></div>
-        <div class="segment g"></div>
-    </div>
-    <div class="digit">
-        <div class="segment a"></div>
-        <div class="segment b"></div>
-        <div class="segment c"></div>
-        <div class="segment d"></div>
-        <div class="segment e"></div>
-        <div class="segment f"></div>
-        <div class="segment g"></div>
-    </div>
-</div>
-</div>
     <script src="script.js"></script>
 </body>
 </html>
