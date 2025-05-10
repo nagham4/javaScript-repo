@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+}
+#inputText {
+    width: 50%;
+    margin: 50px;
+    border: 3px solid black;
+    padding: 10px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 30px;
+    box-shadow: 4px 4px black;
+    background-color: white;
+    cursor: pointer;
+}
+.container {
+    border: 3px solid black;
+    background-color: white;
+    padding: 20px;
+    width: fit-content;
+    margin: 50px auto;
+}
+.digit {
+    position: relative;
+    width: 60px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+    background-color: black;
+}
+.segment {
+    position: absolute;
+    background-color: #222;
+    border-radius: 5px;
+}
+.segment.on {
+    background-color: red;
+}
+.a { 
+    top: 0; 
+    left: 10px; 
+    width: 40px;
+    height: 10px; 
+}
+.b { 
+    top: 10px; 
+    right: 0; 
+    width: 10px; 
+    height: 40px; 
+}
+.c { 
+    bottom: 10px; 
+    right: 0; 
+    width: 10px; 
+    height: 40px; 
+}
+.d { 
+    bottom: 0; 
+    left: 10px; 
+    width: 40px; 
+    height: 10px; 
+}
+.e { 
+    bottom: 10px; 
+    left: 0; 
+    
+    width: 10px; height: 40px;
+}
+.f { 
+    top: 10px; 
+    left: 0; 
+    width: 10px; 
+    height: 40px; 
+}
+.g { 
+    top: 45px; 
+    left: 10px; 
+    width: 40px; 
+    height: 10px; 
+}
