@@ -19,6 +19,8 @@ const clearDisplay = () => {
     displayNum.innerHTML = '';
 };
 
+
+
 const validateInput = (input) => /^\d{1,3}$/.test(input);
 displayBtn.addEventListener("click", () => {
     const value = inputText.value.trim();
