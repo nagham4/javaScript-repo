@@ -4,20 +4,7 @@ const errorMsg = document.getElementById("errorMsg");
 const displayNum = document.getElementById("displayArea");
 
 
-const showNumber = (number) => {
-    displayNum.innerHTML = '';
 
-    [...number].forEach(digit => {
-    const span = document.createElement('span');
-    span.className = 'digit';
-    span.textContent = digit;
-    displayNum.appendChild(span);
-    });
-};
-
-const clearDisplay = () => {
-    displayNum.innerHTML = '';
-};
 
 const validateInput = (input) => /^\d{1,3}$/.test(input);
 displayBtn.addEventListener("click", () => {
