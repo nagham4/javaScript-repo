@@ -1,8 +1,8 @@
-body {
+bobody {
     text-align: center;
 }
 #inputText {
-    width: 50%;
+    width: 30%;
     margin: 50px;
     border: 3px solid black;
     padding: 10px;
@@ -14,68 +14,38 @@ button {
     background-color: white;
     cursor: pointer;
 }
+.error {
+    color: red;
+}
 .container {
     border: 3px solid black;
-    background-color: white;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin-top: 20px;
+    height: 300px;
+    align-items: center;
+    margin: auto;
+}
+.seven-segment {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: black;
     width: fit-content;
-    margin: 50px auto;
+    height: fit-content;
 }
 .digit {
-    position: relative;
-    width: 60px;
-    height: 100px;
-    margin: 10px;
-    display: inline-block;
+    font-family: 'Digital';
     background-color: black;
+    color: red;
+    font-size: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
 }
-.segment {
-    position: absolute;
-    background-color: #222;
-    border-radius: 5px;
-}
-.segment.on {
-    background-color: red;
-}
-.a { 
-    top: 0; 
-    left: 10px; 
-    width: 40px;
-    height: 10px; 
-}
-.b { 
-    top: 10px; 
-    right: 0; 
-    width: 10px; 
-    height: 40px; 
-}
-.c { 
-    bottom: 10px; 
-    right: 0; 
-    width: 10px; 
-    height: 40px; 
-}
-.d { 
-    bottom: 0; 
-    left: 10px; 
-    width: 40px; 
-    height: 10px; 
-}
-.e { 
-    bottom: 10px; 
-    left: 0; 
-    
-    width: 10px; height: 40px;
-}
-.f { 
-    top: 10px; 
-    left: 0; 
-    width: 10px; 
-    height: 40px; 
-}
-.g { 
-    top: 45px; 
-    left: 10px; 
-    width: 40px; 
-    height: 10px; 
-}
+
+@font-face {
+    font-family: 'Digital';
+    src: url('fonts/Technology.ttf') format('truetype');
+}  
