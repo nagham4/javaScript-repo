@@ -7,40 +7,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main">
-        <form onsubmit="return false;">
-            <input type="number" min="0" max="999" id="inputText" placeholder="Enter numbers between 0 and 999"><br>
-            <button type="button" id="displayBtn">Display</button>
-        </form>
-        <div class="container">
-            <div class="digit">
-                <div class="segment a"></div>
-                <div class="segment b"></div>
-                <div class="segment c"></div>
-                <div class="segment d"></div>
-                <div class="segment e"></div>
-                <div class="segment f"></div>
-                <div class="segment g"></div>
-            </div>
-            <div class="digit">
-                <div class="segment a"></div>
-                <div class="segment b"></div>
-                <div class="segment c"></div>
-                <div class="segment d"></div>
-                <div class="segment e"></div>
-                <div class="segment f"></div>
-                <div class="segment g"></div>
-            </div>
-            <div class="digit">
-                <div class="segment a"></div>
-                <div class="segment b"></div>
-                <div class="segment c"></div>
-                <div class="segment d"></div>
-                <div class="segment e"></div>
-                <div class="segment f"></div>
-                <div class="segment g"></div>
-            </div>
-        </div>
+    <input type="number" id="inputText" placeholder="Enter numbers between 0 and 999" /><br>
+    <button id="displayBtn">Display</button>
+    <p id="errorMsg" class="error"></p>
+    <div class="container">
+        <div class="seven-segment" id="displayArea"></div>
     </div>
     <script src="script.js"></script>
 </body>
